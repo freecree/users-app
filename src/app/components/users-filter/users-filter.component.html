@@ -1,0 +1,16 @@
+<div class="filter-block">
+  <mat-form-field>
+    <input
+      [formControl]="loginFilterControl"
+      matInput
+      placeholder="Enter login"
+    >
+  </mat-form-field>
+  <button
+    color="accent"
+    mat-flat-button
+    (click)="submitFilter()"
+  >
+    Search
+  </button>
+</div>
